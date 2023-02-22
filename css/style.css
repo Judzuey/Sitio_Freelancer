@@ -1,0 +1,50 @@
+/* Custome propieties */
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+    --fuente:'Krub', sans-serif;
+}
+
+/* Reinicia los valores de rem */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--fuente);
+}
+/* *************************** */
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    
+}
+
+.titulo span{
+    font-size: 2rem;
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion-principal a{
+    background-color: var(--primario);
+}
+
