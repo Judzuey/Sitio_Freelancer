@@ -219,7 +219,7 @@ h1,h2,h3 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1rem;
-        grid-template-rows: auto auto 20rem;
+        /* grid-template-rows: auto auto 20rem; */
     }
 
     .campo:nth-child(3),
